@@ -50,10 +50,13 @@ table {
 body{
     width: 1920px;
     margin: 0 auto;
-    
 }
 .header{
     margin: 0 auto;
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    top: 0;
     /* position: fixed;
     top:0;
     left:460px; */
@@ -62,6 +65,7 @@ body{
 .header .link{
     height: 32px;
     background: #F6F6F8;
+    margin-right: 405px;
 }
 .header .link ul{
     float: right;
@@ -78,13 +82,11 @@ body{
     text-decoration: underline;
     cursor: pointer;
 }
-.header .link:after{
+/* .header .link:after{
     content:'';
-    
     display:block;
-    
     clear:both;
-}
+} */
 .facebook{
    color: #4460a0;
    border-right:2px solid #cccccc;
@@ -92,17 +94,19 @@ body{
 }
 /* topBar */
 .topBar{
-    margin: 0 404px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #ffffff;
 }
 .topBar img{
     width: 150px;
+    margin-left: 405px;
 }
 .topBar ul{
     display: flex;
     gap: 42px;
+    margin-right: 405px;
 }
 .topBar li a{
     display: block;
@@ -119,7 +123,7 @@ body{
     border-bottom: 4px solid #00CC99;
 }
 .content{
-    
+    margin-top: 108px;
 }
 .content .mainTitle{
     height: 390px;
